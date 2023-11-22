@@ -30,3 +30,10 @@ function atualizarListaOrdenada(){
         adicionaElementoNaListaOrdenada(lista[i]);
     }
 }
+
+function adicionaElementoNaListaOrdenada(){
+    const li = document.createElement("li");
+    li.textContent = texto;
+    olItens.appendChild(li);
+    
+}
