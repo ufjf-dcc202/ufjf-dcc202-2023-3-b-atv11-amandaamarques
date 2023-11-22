@@ -4,4 +4,10 @@ const lista = [
     "Três"
 ];
 
+function getLista(){
+    return lista;
+}
 
+
+
+export {getLista, adicionaNaLista, removeDaLista, limpaLista};
