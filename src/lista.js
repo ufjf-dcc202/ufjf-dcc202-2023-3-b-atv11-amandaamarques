@@ -19,5 +19,4 @@ function removeDaLista(posição){
 function limpaLista(){
     lista.splice(0);
 }
-
 export {getLista, adicionaNaLista, removeDaLista, limpaLista};
